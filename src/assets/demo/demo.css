@@ -18,23 +18,28 @@
 */
 
 /* ADDED*/
-li{
+a {
+  color: white;
+}
+
+li {
   list-style-type: none;
 }
-.nav-margin{
+.nav-margin {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.collapsed-bar{
+.collapsed-bar {
   text-align: center;
 }
 .highlight:hover {
-  box-shadow: 0px 1px 150px 20px rgb(104, 3, 3);
-  font-size: 120%;
+  text-shadow: 0px 15px 40px rgb(255, 255, 255); 
+  color: #51bcda;
+  font-size: 100%;
   /* border: 1px solid whitesmoke;
   border-radius: 15px; */
   animation-name: late;
-  animation-delay: 5s;
+  animation-delay: 3s;
   animation-duration: 1s;
 }
 
@@ -44,20 +49,15 @@ li{
 }
 @keyframes hey {
   0% {
-    transform: rotate(45deg);
   }
   25% {
-    transform: rotate(90deg);
     background-color: white;
   }
   50% {
-    transform: rotate(135deg);
   }
   75% {
-    transform: rotate(180deg);
   }
   100% {
-    transform: rotate(0deg);
   }
 }
 
@@ -72,6 +72,10 @@ li{
   }
   100% {
   }
+}
+
+.shine:hover {
+  text-shadow: 0px 10px 10px rgb(105, 105, 105);
 }
 
 /*ADDED*/

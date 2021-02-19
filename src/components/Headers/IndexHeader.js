@@ -37,7 +37,7 @@ function IndexHeader() {
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1 className="presentation-title fun">SPL</h1>
+              <h1 className="presentation-title flash">SPL</h1>
               <h2>
               <strong>Simplicity Gaming</strong>
               </h2>

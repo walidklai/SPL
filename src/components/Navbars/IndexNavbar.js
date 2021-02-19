@@ -67,7 +67,7 @@ function IndexNavbar() {
   return (
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container className='nav-margin'>
-        <div className="navbar-translate">
+        <div className="navbar-translate fun">
           <NavbarBrand
             className="flash"
             data-placement="bottom"
@@ -107,7 +107,7 @@ function IndexNavbar() {
           navbar
           isOpen={navbarCollapse}
         >
-        <Nav>
+        <Nav navbar>
           <NavItem>
             <NavLink
               className="highlight"
